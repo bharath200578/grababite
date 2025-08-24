@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="https://static.readdy.ai/static/e.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grab A Bite</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>
+tailwind.config = {
+theme: {
+extend: {
+colors: {
+primary: '#1a1a1a',
+secondary: '#4a4a4a'
+},
+borderRadius: {
+'none': '0px',
+'sm': '4px',
+DEFAULT: '8px',
+'md': '12px',
+'lg': '16px',
+'xl': '20px',
+'2xl': '24px',
+'3xl': '32px',
+'full': '9999px',
+'button': '8px'
+}
+}
+}
+}
+</script>
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+.hero-section {
+background-image: url('https://readdy.ai/api/search-image?query=modern%20minimalist%20cafe%20interior%20with%20natural%20light%2C%20wooden%20furniture%2C%20white%20walls%2C%20and%20plants%2C%20creating%20a%20warm%20and%20inviting%20atmosphere.%20The%20left%20side%20of%20the%20image%20should%20have%20a%20clean%2C%20light-colored%20area%20suitable%20for%20text%20overlay&width=1920&height=800&seq=1&orientation=landscape');
+background-size: cover;
+background-position: center;
+}
+</style>
+</head>
+<body class="min-h-screen bg-white">
+<header class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
+<nav class="container mx-auto px-6 py-4 flex items-center justify-between">
+<a href="#" class="text-2xl"><img src="https://static.readdy.ai/image/166da34e90cf84c89dfd192d0e415053/4ea04050359e731e5c62a1b6117f1ca5.jfif" alt="Grab A Bite" class="h-12"></a>
+<div class="hidden md:flex items-center space-x-8">
+<a href="#story" class="text-gray-600 hover:text-primary">Our Story</a>
+<a href="#menu" class="text-gray-600 hover:text-primary">Menu</a>
+<a href="#ambiance" class="text-gray-600 hover:text-primary">Ambiance</a>
+<a href="#entertainment" class="text-gray-600 hover:text-primary">Entertainment</a>
+<a href="#visit" class="text-gray-600 hover:text-primary">Visit Us</a>
+<button class="!rounded-button bg-primary text-white px-6 py-2 hover:bg-opacity-90">Book a Table</button>
+</div>
+<button class="md:hidden w-10 h-10 flex items-center justify-center">
+<i class="ri-menu-line text-xl"></i>
+</button>
+</nav>
+</header>
+<section class="hero-section min-h-[800px] flex items-center relative mt-[72px]">
+<div class="absolute inset-0 bg-black/40"></div>
+<div class="container mx-auto px-6 relative z-10">
+<div class="max-w-2xl text-white">
+<h1 class="text-5xl font-bold mb-6">Welcome to Grab A Bite</h1>
+<p class="text-xl mb-8">Experience the perfect blend of traditional recipes and modern culinary innovation in our cozy atmosphere.</p>
+<div class="flex gap-4">
+<button class="!rounded-button bg-white text-primary px-8 py-3 font-medium hover:bg-opacity-90">Book Now</button>
+<button class="!rounded-button border-2 border-white text-white px-8 py-3 font-medium hover:bg-white/10">View Menu</button>
+</div>
+</div>
+</div>
+</section>
+<section id="story" class="py-20">
+<div class="container mx-auto px-6">
+<div class="max-w-3xl">
+<h2 class="text-3xl font-bold mb-6">Our Story</h2>
+<p class="text-gray-600 leading-relaxed">
+Founded in 2015, our bistro has been a cornerstone of the local culinary scene. We believe in creating not just meals, but memorable experiences that bring people together. Our commitment to quality ingredients, innovative recipes, and warm hospitality has made us a beloved destination for food enthusiasts and casual diners alike.
+</p>
+</div>
+</div>
+</section>
+<section id="menu" class="py-20 bg-gray-50">
+<div class="container mx-auto px-6">
+<h2 class="text-3xl font-bold mb-12 text-center">Our Signature Menu</h2>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm">
+<img src="https://readdy.ai/api/search-image?query=artisanal%20coffee%20in%20a%20modern%20ceramic%20cup%20on%20a%20wooden%20table%20with%20latte%20art%20and%20coffee%20beans%20scattered%20around%2C%20soft%20natural%20lighting%2C%20minimalist%20composition&width=400&height=300&seq=2&orientation=landscape" alt="Signature Coffee" class="w-full h-48 object-cover">
+<div class="p-6">
+<h3 class="text-xl font-semibold mb-2">Artisanal Coffee</h3>
+<p class="text-gray-600 mb-4">Hand-selected beans, expertly roasted and brewed to perfection.</p>
+<div class="flex items-center justify-between">
+<span class="text-lg font-semibold">₹350</span>
+<button class="!rounded-button bg-primary text-white px-4 py-2 text-sm">Order Now</button>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg overflow-hidden shadow-sm">
+<img src="https://readdy.ai/api/search-image?query=gourmet%20breakfast%20plate%20with%20poached%20eggs%2C%20avocado%20toast%2C%20fresh%20fruits%2C%20and%20microgreens%20on%20a%20white%20ceramic%20plate%2C%20bright%20natural%20lighting&width=400&height=300&seq=3&orientation=landscape" alt="Breakfast Special" class="w-full h-48 object-cover">
+<div class="p-6">
+<h3 class="text-xl font-semibold mb-2">Breakfast Special</h3>
+<p class="text-gray-600 mb-4">Fresh ingredients combined for a perfect start to your day.</p>
+<div class="flex items-center justify-between">
+<span class="text-lg font-semibold">₹899</span>
+<button class="!rounded-button bg-primary text-white px-4 py-2 text-sm">Order Now</button>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg overflow-hidden shadow-sm">
+<img src="https://readdy.ai/api/search-image?query=elegant%20dessert%20plate%20with%20chocolate%20cake%2C%20fresh%20berries%2C%20and%20edible%20flowers%2C%20artistic%20plating%20on%20dark%20stone%20surface&width=400&height=300&seq=4&orientation=landscape" alt="Dessert Selection" class="w-full h-48 object-cover">
+<div class="p-6">
+<h3 class="text-xl font-semibold mb-2">Dessert Selection</h3>
+<p class="text-gray-600 mb-4">Handcrafted desserts that delight both the eye and palate.</p>
+<div class="flex items-center justify-between">
+<span class="text-lg font-semibold">₹450</span>
+<button class="!rounded-button bg-primary text-white px-4 py-2 text-sm">Order Now</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="ambiance" class="py-20">
+<div class="container mx-auto px-6">
+<h2 class="text-3xl font-bold mb-12 text-center">Experience the Ambiance</h2>
+<div class="grid md:grid-cols-2 gap-12 items-center">
+<div>
+<img src="https://readdy.ai/api/search-image?query=cozy%20cafe%20interior%20with%20warm%20lighting%2C%20comfortable%20seating%2C%20indoor%20plants%2C%20and%20modern%20decor%20elements%20creating%20an%20inviting%20atmosphere&width=600&height=400&seq=5&orientation=landscape" alt="Cafe Ambiance" class="rounded-lg w-full">
+</div>
+<div>
+<h3 class="text-2xl font-semibold mb-4">Modern Comfort</h3>
+<p class="text-gray-600 mb-6">Our carefully designed space combines contemporary aesthetics with comfortable seating, creating the perfect environment for any occasion - from casual meetings to intimate dinners.</p>
+<button class="!rounded-button bg-primary text-white px-6 py-3">Reserve a Table</button>
+</div>
+</div>
+</div>
+</section>
+<section id="entertainment" class="py-20 bg-primary text-white">
+<div class="container mx-auto px-6">
+<h2 class="text-3xl font-bold mb-12">Evening Entertainment</h2>
+<div class="grid md:grid-cols-2 gap-12">
+<div>
+<h3 class="text-xl font-semibold mb-4">Live Music Schedule</h3>
+<ul class="space-y-4">
+<li class="flex items-center gap-4">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-music-2-line"></i>
+</div>
+<span>Jazz Nights - Every Thursday 7PM</span>
+</li>
+<li class="flex items-center gap-4">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-mic-line"></i>
+</div>
+<span>Acoustic Sessions - Friday & Saturday 8PM</span>
+</li>
+<li class="flex items-center gap-4">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-record-circle-line"></i>
+</div>
+<span>Sunday Brunch Live - 11AM to 2PM</span>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="text-xl font-semibold mb-4">Special Events</h3>
+<p class="mb-6">Join us for special themed nights, wine tastings, and culinary workshops. Check our calendar for upcoming events.</p>
+<button class="!rounded-button bg-white text-primary px-6 py-3">View Calendar</button>
+</div>
+</div>
+</div>
+</section>
+<section id="visit" class="py-20">
+<div class="container mx-auto px-6">
+<div class="grid md:grid-cols-2 gap-12">
+<div>
+<h2 class="text-3xl font-bold mb-8">Visit Us</h2>
+<div class="space-y-6">
+<div>
+<h3 class="text-xl font-semibold mb-2">Location</h3>
+<p class="text-gray-600">42-1, Road No 1, Jubilee Hills<br>Hyderabad, Telangana 500033</p>
+</div>
+<div>
+<h3 class="text-xl font-semibold mb-2">Hours</h3>
+<p class="text-gray-600">
+Monday - Friday: 7:00 AM - 10:00 PM<br>
+Saturday - Sunday: 8:00 AM - 11:00 PM
+</p>
+</div>
+<div>
+<h3 class="text-xl font-semibold mb-2">Contact</h3>
+<p class="text-gray-600">
+Phone: (555) 123-4567<br>
+Email: hello@bistrocafe.com
+</p>
+</div>
+</div>
+</div>
+<div class="h-[400px] rounded-lg overflow-hidden">
+<div class="w-full h-full" style="background-image: url('https://public.readdy.ai/gen_page/map_placeholder_1280x720.png'); background-size: cover; background-position: center;"></div>
+</div>
+</div>
+</div>
+</section>
+<footer class="bg-primary text-white py-12">
+<div class="container mx-auto px-6">
+<div class="grid md:grid-cols-4 gap-8">
+<div>
+<a href="#" class="block mb-4"><img src="https://static.readdy.ai/image/166da34e90cf84c89dfd192d0e415053/4ea04050359e731e5c62a1b6117f1ca5.jfif" alt="Grab A Bite" class="h-12"></a>
+<p class="text-gray-400">Creating memorable dining experiences at Grab A Bite since 2015.</p>
+</div>
+<div>
+<h4 class="font-semibold mb-4">Quick Links</h4>
+<ul class="space-y-2">
+<li><a href="#" class="text-gray-400 hover:text-white">Menu</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white">Reservations</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white">Private Events</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white">Gift Cards</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-semibold mb-4">Contact</h4>
+<ul class="space-y-2">
+<li class="text-gray-400">(555) 123-4567</li>
+<li class="text-gray-400">hello@bistrocafe.com</li>
+<li class="text-gray-400">42-1, Road No 1, Jubilee Hills</li>
+<li class="text-gray-400">Hyderabad, Telangana 500033</li>
+</ul>
+</div>
+<div>
+<h4 class="font-semibold mb-4">Newsletter</h4>
+<p class="text-gray-400 mb-4">Subscribe to our newsletter for updates and special offers.</p>
+<div class="flex gap-2">
+<input type="email" placeholder="Your email" class="bg-white/10 rounded-button px-4 py-2 text-white placeholder-gray-400 flex-1">
+<button class="!rounded-button bg-white text-primary px-4 py-2">Subscribe</button>
+</div>
+</div>
+</div>
+<div class="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+<p class="text-gray-400">&copy; 2025 Grab A Bite. All rights reserved.</p>
+<div class="flex gap-4 mt-4 md:mt-0">
+<a href="#" class="text-gray-400 hover:text-white">
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-facebook-fill"></i>
+</div>
+</a>
+<a href="#" class="text-gray-400 hover:text-white">
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-instagram-line"></i>
+</div>
+</a>
+<a href="#" class="text-gray-400 hover:text-white">
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-twitter-x-line"></i>
+</div>
+</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+const header = document.querySelector('header');
+window.addEventListener('scroll', () => {
+if (window.scrollY > 0) {
+header.classList.add('shadow-sm');
+} else {
+header.classList.remove('shadow-sm');
+}
+});
+});
+</script>
+<script>
+    !function (t, e) { var o, n, p, r; e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) { function g(t, e) { var o = e.split("."); 2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } } (p = t.createElement("script")).type = "text/javascript", p.crossOrigin = "anonymous", p.async = !0, p.src = s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r); var u = e; for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) { var e = "posthog"; return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e }, u.people.toString = function () { return u.toString(1) + ".people (stub)" }, o = "init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "), n = 0; n < o.length; n++)g(u, o[n]); e._i.push([i, s, a]) }, e.__SV = 1) }(document, window.posthog || []);
+    posthog.init('phc_t9tkQZJiyi2ps9zUYm8TDsL6qXo4YmZx0Ot5rBlAlEd', {
+        api_host: 'https://us.i.posthog.com',
+        autocapture: false,
+        capture_pageview: false,
+        capture_pageleave: false,
+        capture_performance: {
+            web_vitals: false,
+        },
+        rageclick: false,
+    })
+    window.shareKey = 'VSMs1oyuSKHvguwCGYsZ9A';
+    window.host = 'readdy.ai';
+</script>
+<script src="https://static.readdy.ai/static/share.js"></script></body>
+</html>
